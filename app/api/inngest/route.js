@@ -1,3 +1,7 @@
+export const config = {
+  runtime: "nodejs", // ✅ Force Node.js runtime so Prisma uses binary engine
+};
+
 import { serve } from "inngest/next";
 
 import { inngest } from "@/lib/inngest/client";
